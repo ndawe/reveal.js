@@ -31,25 +31,27 @@ Main body of talk here. Need to keep it brief and concise.
 
 ##The future of rootpy
 
-* Larger documentation coverage. This is important.
-* More examples.
-* Automatic wrapping of ROOT methods by parsing method signatures.
-   - If a method expects a TColor, rootpy can accept any color matplotlib
-     accepts and then convert it into ROOT form before passing to the ROOT method.
+* Larger documentation coverage. This is important!
+* More code examples.
+* Automatic wrapping of ROOT methods by parsing method signatures:
+   - If a method expects a TColor, rootpy can accept any matplotlib/ROOT color
+     and convert it into a TColor before passing to the ROOT method.
    - Reduce the amount of code in rootpy.
 * TMVA:
    - Feed TMVA NumPy arrays instead of TTrees. 
 * RooFit and RooStats:
-   - Wrapping RooArgSet as set() and RooArgList as list(), etc.
+   - Wrap RooArgSet as set() and RooArgList as list()...
    - Create RooDataSets from NumPy arrays.
 
 
 
 ##How can I contribute?
 
-* We Use Git!
-* Development is community-driven.
+* We use Git! Development is community-driven.
+* Just fork rootpy into your own GitHub account and:
+    
+        git clone git@github.com:[username]/rootpy.git
+  Then submit a pull request with your contribution.
 * Contributions are reviewed by peers before merging into the main branch.
-* All new code is automatically tested against our test suite, that must pass.
-* We use [Travis CI](https://travis-ci.org/) to perform continuous integration of
-  all contributions.
+* All new code is automatically tested against our test suite using
+  [Travis CI](https://travis-ci.org/).
