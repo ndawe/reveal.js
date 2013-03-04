@@ -1,0 +1,16 @@
+html body {
+    background: url(images/rootpy.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.reveal.page .slides section:not(.stack):before {
+    background: rgba(255,255,255,.7);
+    border-radius: 30px;
+}
+
+.reveal.page .slides section:not(.stack):after {
+    box-shadow: none;
+}
