@@ -44,20 +44,12 @@ Main body of talk here. Need to keep it brief and concise.
    - Create RooDataSets from NumPy arrays.
 
 
-   
+
 ##How can I contribute?
 
-* Using Git for source code management. See next presentation.
-* Development is community-driven; made easy by all of Github's "social coding"
-  features.
-* Cost of submitting issues (bug reports) is low.
-* Cost of contibuting is low; anyone can fork the repository and later submit a
-  pull request. Git is much better here than Subversion.
+* We Use Git!
+* Development is community-driven.
 * Contributions are reviewed by peers before merging into the main branch.
-* No politics. Just a circle of "trusted" developers who have the ability to
-  merge commits into the main branch after they have been reviewed.
 * All new code is automatically tested against our test suite, that must pass.
-  Code that introduces new functionality should bring new unit tests with it;
-  untested code is bad code.
-* We use Travis CI (https://travis-ci.org/) to perform continuous integration of
+* We use [Travis CI](https://travis-ci.org/) to perform continuous integration of
   all contributions.
